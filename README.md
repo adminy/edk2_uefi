@@ -2,7 +2,7 @@
 
 This repository contains a port of Tianocore EDK II to various Rockchip RK356x based boards:
 
-* [PINE64 Quartz64 Model A](https://www.pine64.org/quartz64a/) / [PINE64 Quartz64 Model B](https://www.pine64.org/quartz64b/) / [PINE64 SOQuartz](https://wiki.pine64.org/wiki/SOQuartz)
+* [PINE64 Quartz64 Model A](https://www.pine64.org/quartz64a/) / [PINE64 Quartz64 Model B](https://www.pine64.org/quartz64b/) / [PINE64 SOQuartz](https://wiki.pine64.org/wiki/SOQuartz) [Under-test]
 * [Firefly ROC-RK3566-PC](https://en.t-firefly.com/product/industry/rocrk3566pc.html) / [StationPC Station M2](https://www.stationpc.com/product/stationm2)
 * [Firefly ROC-RK3568-PC](https://en.t-firefly.com/product/industry/rocrk3568pc.html) / [StationPC Station P2](https://www.stationpc.com/product/stationp2)
 * [Radxa ROCK3 Computing Module](https://wiki.radxa.com/Rock3/CM3)
@@ -50,3 +50,7 @@ The _DSM control method parameters for the Set Card Clock function are as follow
 #### Return
 
 The actual card clock rate in Hz. Will be less than or equal to the target clock rate. Returns 0 if the target clock rate could not be set.
+
+### Bugs
+
+You don't get any usb devices on SoQuartz CM4 IO boards
